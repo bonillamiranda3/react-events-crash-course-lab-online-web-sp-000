@@ -11,6 +11,9 @@ export default class ChromeBoisDomain extends Component {
      * (`drawChromeBoiAtCoords` expects two arguments, an x and a y coordinate)
      */
   }
+
+  drawChromeBoiAtCoords(event.clientX, event.clientY);
+  
   handleKeyPress = (event) => {
     if (event.key === 'a') {
       resize('+')
